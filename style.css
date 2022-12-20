@@ -9,9 +9,12 @@ h2{
     text-align: center;
     vertical-align: middle;
     border-radius: 50%;
-    display: table-cell;
+    display: flex;
     color: #aca190;
     background-color: #FAF0E6;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
 }
 
 h2:hover{
@@ -19,12 +22,10 @@ h2:hover{
     cursor: pointer;
 }
 
-span{
-    margin-right: 0.5cm;
-}
-
 .d1{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-bottom: 1.5cm;
 }
 
